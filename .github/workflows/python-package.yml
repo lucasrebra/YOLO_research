@@ -22,15 +22,15 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        cd scripts/Yolov1_package
+        cd scripts/yolov1_package
         python -m pip install --upgrade pip
         pip install .
     - name: Lint with flake8
       run: |
-        cd scripts/Yolov1_package
-        flake8 Yolov1_package --count --select=E9,F63,F7,F82 --show-source --statistics
-        flake8 Yolov1_package --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        cd scripts/yolov1_package
+        flake8 yolov1_package --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 yolov1_package --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        cd scripts/Yolov1_package
+        cd scripts/yolov1_package
         pytest tests
