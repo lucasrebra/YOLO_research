@@ -27,10 +27,10 @@ jobs:
         pip install .
     - name: Lint with flake8
       run: |
-        cd YOLO_research/scripts/yolov1_package
-        flake8 yolov1_package --count --select=E9,F63,F7,F82 --show-source --statistics
-        flake8 yolov1_package --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        cd YOLO_research/scripts/Yolov1_package
+        flake8 Yolov1_package --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 Yolov1_package --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        cd YOLO_research/scripts/yolov1_package
+        cd YOLO_research/scripts/Yolov1_package
         pytest tests
