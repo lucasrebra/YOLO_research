@@ -7,7 +7,7 @@ class TestLoss(unittest.TestCase):
         y_true = torch.randn(1, 7 * 7 * 30)
         y_pred = torch.randn(1, 7 * 7 * 30)
         loss = yolo_loss(y_true, y_pred)
-        self.assertGreaterEqual(loss.item(), 0)
+        self.assertGreaterEqual(loss.numpy(), 0)  # Cambiado .item() por .numpy()
 
 if __name__ == '__main__':
     unittest.main()
