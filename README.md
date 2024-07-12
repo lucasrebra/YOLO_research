@@ -17,6 +17,7 @@ This repository contains Jupyter notebooks and scripts for exploring and trainin
 - [YOLOv4 Colab Notebook](https://colab.research.google.com/drive/1X_ZQOcllewyZKoHFHv1usNH4UbuVrEK-?usp=sharing)
 - [YOLOv5_Colab_Notebook](https://colab.research.google.com/drive/1C0e6SEOkoEho1sWJ5qlqsxRfqqqvee_H?usp=sharing)
 - [YOLOV6_Colab_Notebook](https://colab.research.google.com/drive/137sxVIwEARSZcPuVBBj2IvS44UoGyniY?usp=sharing)
+- [YOLOV6_Colab_Notebook](https://colab.research.google.com/drive/1uc-Rc6v17RCE6ouwjeuCzf-0VqrqKPYW?usp=sharing)
 
 ## Usage Instructions
 For testing the commands in most of the cases will be tried to only using the Colab Notebook. This will be done 
